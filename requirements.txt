@@ -1,6 +1,7 @@
-sentence-transformers
 numpy
-chromadb
 python-dotenv
 openai
 supabase
+fastapi
+uvicorn
+python-multipart
