@@ -1,0 +1,13 @@
+[
+    {"product_name": "Apple iPhone 14 Pro", "product_description": "Latest Apple flagship smartphone with A16 Bionic chip and improved cameras."},
+    {"product_name": "Samsung Galaxy S21", "product_description": "High-end Android smartphone with a 120Hz display and advanced camera features."},
+    {"product_name": "Sony WH-1000XM4", "product_description": "Noise-cancelling wireless headphones with excellent sound quality."},
+    {"product_name": "Nike Air Max 2021", "product_description": "Stylish and comfortable sneakers with air cushioning technology."},
+    {"product_name": "Dell XPS 13", "product_description": "Compact and powerful ultrabook with a 13-inch display and Intel i7 processor."},
+    {"product_name": "Canon EOS R5", "product_description": "Full-frame mirrorless camera with 8K video recording and advanced autofocus."},
+    {"product_name": "Fitbit Charge 4", "product_description": "Fitness tracker with heart rate monitoring, GPS, and sleep tracking."},
+    {"product_name": "Apple Watch Series 7", "product_description": "Smartwatch with a large screen, health monitoring features, and cellular connectivity."},
+    {"product_name": "MacBook Air M1", "product_description": "Thin and light laptop with Apple's M1 chip for fast performance and long battery life."},
+    {"product_name": "Google Pixel 6", "product_description": "Android smartphone with Google Tensor chip, exceptional camera performance, and a sleek design."}
+  ]
+  

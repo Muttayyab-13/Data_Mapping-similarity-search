@@ -1,18 +1,16 @@
-import json
 import numpy as np
-from sentence_transformers import SentenceTransformer
+from config import client
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# Function to create combined embedding
+def embed_product(name: str, description: str):
+    combined_text = f"{name}. {description}"
+    response = client.embeddings.create(
+        input=combined_text,
+        model="text-embedding-ada-002"
+    )
+    embedding = response.data[0].embedding   # Correct way to extract the embedding
+    return embedding
 
-def load_json(path):
-    with open(path, "r") as f:
-        return json.load(f)
-
-def encode_items(items):
-    return model.encode(items)
-
-def save_embeddings(path, embeddings):
-    np.save(path, embeddings)
-
-def load_embeddings(path):
-    return np.load(path)
+# Function to compute cosine distance
+def cosine_distance(vec1, vec2):
+    return 1 - (np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2)))

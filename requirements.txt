@@ -1,3 +1,6 @@
 sentence-transformers
 numpy
 chromadb
+python-dotenv
+openai
+supabase
